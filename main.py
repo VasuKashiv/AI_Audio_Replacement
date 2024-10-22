@@ -201,7 +201,6 @@ def replace_audio_in_video(original_video_path, new_audio_path):
 
 if uploaded_video:
     st.info("Processing your video, please wait...")
-    # video_path = r"C:\Users\Lenovo\Downloads\sample1.mp4"
     video_path = uploaded_video.name
     with open(video_path, "wb") as f:
         f.write(uploaded_video.read())

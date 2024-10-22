@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.wav
+*.mp4
+venv/
+sample-439108-145fce8830ef.json
